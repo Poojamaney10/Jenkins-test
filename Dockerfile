@@ -20,7 +20,7 @@ COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 RUN chown tomcat:tomcat /usr/local/tomcat/webapps/ROOT.war
 
 # Expose Tomcat port
-EXPOSE 8080
+EXPOSE 8090
 
 # Switch to non-root user
 USER tomcat
